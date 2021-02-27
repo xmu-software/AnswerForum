@@ -1,0 +1,116 @@
+/* 全局 */
+body{
+    margin:0;
+}
+span{
+    margin:0;
+}
+.info a{
+    color:#000000
+}
+.middle a{
+    color:#000000;
+}
+.word_big{
+    font-size: 25px;
+}
+.word_medium{
+    font-size:16px;
+}
+.word_small{
+    font-size: 14px;
+}
+.full_small{
+    height: 5px;
+}
+.full_medium{
+    height: 10px;
+}
+.full_big{
+    height: 25px;
+}
+
+div.container-fluid {
+    display: table;
+}
+.nav .nav-pills {
+    display: table-row;
+}
+li.active {
+    display: table-cell;
+}
+
+
+/*  标题栏  */
+.title{
+    width: 100%;
+    overflow: hidden;
+    background: #73c3e8;
+    position: fixed;
+    top:0;
+}
+.topbar_icons{
+    padding-top:8px;
+    padding-bottom: 7px;
+
+}
+
+.top_back{
+    width: 15%;
+    float: left;
+    padding-bottom: 1px;
+}
+
+.top_button{
+    border:0;
+    display: block;
+    margin:0 auto;
+    background: #73c3e8;
+}
+.top_text{
+    width: 70%;
+    text-align: center;
+    float: left;
+    padding-top:5px;
+    padding-bottom: 4px;
+    font-size:18px;
+    overflow: hidden;
+    color: #ffffff;
+}
+.top_refresh{
+    width:15%;
+    float: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+/* 信息显示 */
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.info{
+    width: 95%;
+    margin:0 auto;
+    border: 1px solid #a9bdff;
+    border-radius: 5px;
+    box-shadow: 5px 0 4px #888888;
+
+}
+
+
+/*底部分类框*/
+.btbar{
+    margin:0 auto;
+    position: fixed;
+    bottom: 0;
+}
+.barpo{
+    margin:0 auto;
+}
+#nextpage{
+    width: 80%;
+    margin:0 auto;
+}

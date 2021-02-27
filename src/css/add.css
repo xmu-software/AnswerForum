@@ -1,0 +1,32 @@
+#form {
+    display: table;
+    padding: 0 12%;
+}
+.tablerow {
+    display: table-row;
+}
+.tablerow p {
+    display: table-cell;
+    padding: 8% 0;
+    line-height: 1.5em;
+}
+.tablerow p:first-child {
+    text-align: right;
+}
+/*label {*/
+    /*font-size: larger;*/
+/*}*/
+input {
+    width: 100%;
+}
+#submit {
+    background-color: #0078D7;
+    color: white;
+;
+}
+.full_big {
+    height: 35px;
+}
+.title {
+    z-index: 999;
+}
